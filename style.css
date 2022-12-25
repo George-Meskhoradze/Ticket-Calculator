@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background-img {
+  width: 100%;
+  height: 100vh;
+  background: url(/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+  width: 500px;
+  height: 700px;
+  gap: 25px;
+  background: rgba(0, 0, 0, 0.568);
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-family: 'Arvo', serif;
+  color: rgb(255, 255, 255);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.num {
+  font-size: 6rem;
+  font-family: 'Arvo', serif;
+  color: white;
+}
+
+.ticket {
+  font-size: 1.2rem;
+  font-family: 'Arvo', serif;
+  color: rgb(255, 255, 255);
+}
+.btn-container {
+  width: 400px;
+  height: 195px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn,.btn2,.btn3 {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.5rem;
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+  
+.btn {
+  background-image: linear-gradient(to right, #0d816a 0%, #97ffe0  51%, #0d816a  100%);
+  background-size: 200% auto;
+  color: white;            
+  display: block; 
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+
+.btn2 {       
+    background-image: linear-gradient(to right, #e4364a 0%, #fdafaf  51%, #e4364a  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+}
+
+.btn2:hover {
+  background-position: right center;
+}
+
+
+.btn3 {
+  background-image: linear-gradient(to right, #003973 0%, #63bef3  51%, #003973  100%);
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s;
+}
+
+
+
+.btn3:hover {       
+  background-position: right center;
+}
+
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn2:active {
+  transform: scale(0.95);
+}
+
+.btn3:active {
+  transform: scale(0.95);
+}
+
+
+.box {
+  width: 400px;
+  height: 190px;
+  background: rgb(243, 243, 243);
+  border-radius: 3px;
+  padding: 0px 5px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+
+.privious-text {
+  width: 390px;
+  height: 50px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #1c303d 0%, #3A6073  51%, #1c303d  100%);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  font-family: 'Arvo', serif;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:550px) {
+  .container {
+    width: 300px;
+    height: 470px;
+    gap: 20px;
+    background: rgba(0, 0, 0, 0.568);
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    font-family: 'Arvo', serif;
+    color: rgb(255, 255, 255);
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .num {
+    font-size: 3rem;
+    font-family: 'Arvo', serif;
+    color: white;
+  }
+  
+  .ticket {
+    font-size: 0.8rem;
+    font-family: 'Arvo', serif;
+    color: rgb(255, 255, 255);
+  }
+  .btn-container {
+    width: 250px;
+    height: 135px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn,.btn2,.btn3 {
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    font-family: 'Arvo', serif;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+.btn {
+  background-image: linear-gradient(to right, #0d816a 0%, #97ffe0  51%, #0d816a  100%);
+  background-size: 200% auto;
+  color: white;            
+  display: block; 
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+
+.btn2 {       
+    background-image: linear-gradient(to right, #e4364a 0%, #fdafaf  51%, #e4364a  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+}
+
+.btn2:hover {
+  background-position: right center;
+}
+
+
+.btn3 {
+  background-image: linear-gradient(to right, #003973 0%, #63bef3  51%, #003973  100%);
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s;
+}
+
+.btn3:hover {       
+  background-position: right center;
+}
+
+.btn {
+  background-image: linear-gradient(to right, #0d816a 0%, #97ffe0  51%, #0d816a  100%);
+  background-size: 200% auto;
+  color: white;            
+  display: block; 
+  transition: 0.5s;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn2 {       
+    background-image: linear-gradient(to right, #e4364a 0%, #fdafaf  51%, #e4364a  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    display: block;
+}
+
+.btn2:hover {
+  background-position: right center;
+}
+
+.btn3 {
+  background-image: linear-gradient(to right, #003973 0%, #63bef3  51%, #003973  100%);
+  background-size: 200% auto;
+  color: white;            
+  border-radius: 10px;
+  display: block;
+  transition: 0.5s;
+}
+
+.btn3:hover {       
+  background-position: right center;
+}
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
+  
+  .btn2:active {
+    transform: scale(0.95);
+  }
+  
+  .btn3:active {
+    transform: scale(0.95);
+  }
+    
+  .box {
+    width: 250px;
+    height: 145px;
+    background: rgb(243, 243, 243);
+    border-radius: 3px;
+    padding: 0px 10px;
+    display: block;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .privious-text {
+    width: 230px;
+    height: 35px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, #1c303d 0%, #3A6073  51%, #1c303d  100%);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: 'Arvo', serif;
+    margin-top: 10px;
+  }
+}
